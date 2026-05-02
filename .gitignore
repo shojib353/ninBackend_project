@@ -1,2 +1,9 @@
 ninUser/topper-46b7d.json
 *.json
+echo "__pycache__/
+*.pyc
+.env
+db.sqlite3
+media/
+staticfiles/
+*.log" > .gitignore

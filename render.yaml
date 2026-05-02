@@ -21,10 +21,11 @@ services:
           name: nin-redis
           property: connectionString
 
-databases:
-  - name: nin-db
-    plan: free
-
   - type: redis
     name: nin-redis
+    plan: free
+    ipAllowList: []
+
+databases:
+  - name: nin-db
     plan: free
